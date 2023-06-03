@@ -1,2 +1,0 @@
-AntiVirus 
-ss
