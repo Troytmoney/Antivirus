@@ -6,7 +6,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # Specify the files you want to protect
-protected_files = ['file1.txt', 'file2.txt', 'file3.txt']
+protected_files = ['file1.xt', 'file2.txt', 'file3.txt']
 
 # Define a custom event handler class
 class FileProtectionHandler(FileSystemEventHandler):
