@@ -90,9 +90,6 @@ print("File protection script is running...")
 while True:
     try:
         time.sleep(1)
-    except KeyboardInterrupt:
-        observer.stop()
-        break
-
+   
 # Clean up and exit
 observer.join()
