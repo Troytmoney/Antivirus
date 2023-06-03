@@ -88,8 +88,7 @@ observer.start()
 # Run indefinitely until terminated
 print("File protection script is running...")
 while True:
-    try:
-        time.sleep(1)
+    time.sleep(1)
    
 # Clean up and exit
 observer.join()
