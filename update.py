@@ -5,7 +5,7 @@ import subprocess
 from win10toast import ToastNotifier
 
 # Server URL and local registry key path
-server_url = "http://update.troysmithson.com/new.php"
+server_url = "http://license.troysmithson.com/new.php"
 registry_key_path = r"SOFTWARE\AntiVirus"
 
 # Get the current version from the local registry
